@@ -1,0 +1,885 @@
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+ankiii07@LAPTOP-3V6LA37H:~$ sudo apt-get update && sudo apt-get upgrade -y
+[sudo] password for ankiii07:
+Hit:1 http://archive.ubuntu.com/ubuntu focal InRelease
+Get:2 http://archive.ubuntu.com/ubuntu focal-updates InRelease [114 kB]
+Get:3 http://security.ubuntu.com/ubuntu focal-security InRelease [114 kB]
+Get:4 http://archive.ubuntu.com/ubuntu focal-backports InRelease [101 kB]
+Get:5 http://security.ubuntu.com/ubuntu focal-security/main amd64 Packages [745 kB]
+Get:6 http://archive.ubuntu.com/ubuntu focal/universe amd64 Packages [8628 kB]
+Get:7 http://archive.ubuntu.com/ubuntu focal/universe Translation-en [5124 kB]
+Get:8 http://security.ubuntu.com/ubuntu focal-security/main Translation-en [148 kB]
+Get:9 http://archive.ubuntu.com/ubuntu focal/universe amd64 c-n-f Metadata [265 kB]
+Get:10 http://security.ubuntu.com/ubuntu focal-security/main amd64 c-n-f Metadata [8036 B]
+Get:11 http://archive.ubuntu.com/ubuntu focal/multiverse amd64 Packages [144 kB]
+Get:12 http://archive.ubuntu.com/ubuntu focal/multiverse Translation-en [104 kB]
+Get:13 http://security.ubuntu.com/ubuntu focal-security/restricted amd64 Packages [282 kB]
+Get:14 http://archive.ubuntu.com/ubuntu focal/multiverse amd64 c-n-f Metadata [9136 B]
+Get:15 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages [1086 kB]
+Get:16 http://security.ubuntu.com/ubuntu focal-security/restricted Translation-en [40.9 kB]
+Get:17 http://archive.ubuntu.com/ubuntu focal-updates/main Translation-en [239 kB]
+Get:18 http://security.ubuntu.com/ubuntu focal-security/universe amd64 Packages [629 kB]
+Get:19 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 c-n-f Metadata [13.8 kB]
+Get:20 http://archive.ubuntu.com/ubuntu focal-updates/restricted amd64 Packages [318 kB]
+Get:21 http://security.ubuntu.com/ubuntu focal-security/universe Translation-en [96.2 kB]
+Get:22 http://archive.ubuntu.com/ubuntu focal-updates/restricted Translation-en [46.1 kB]
+Get:23 http://security.ubuntu.com/ubuntu focal-security/universe amd64 c-n-f Metadata [11.6 kB]
+Get:24 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 Packages [840 kB]
+Get:25 http://security.ubuntu.com/ubuntu focal-security/multiverse amd64 Packages [19.9 kB]
+Get:26 http://security.ubuntu.com/ubuntu focal-security/multiverse Translation-en [4316 B]
+Get:27 http://archive.ubuntu.com/ubuntu focal-updates/universe Translation-en [175 kB]
+Get:28 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 c-n-f Metadata [18.3 kB]
+Get:29 http://security.ubuntu.com/ubuntu focal-security/multiverse amd64 c-n-f Metadata [528 B]
+Get:30 http://archive.ubuntu.com/ubuntu focal-updates/multiverse amd64 Packages [23.6 kB]
+Get:31 http://archive.ubuntu.com/ubuntu focal-updates/multiverse Translation-en [6472 B]
+Get:32 http://archive.ubuntu.com/ubuntu focal-updates/multiverse amd64 c-n-f Metadata [648 B]
+Get:33 http://archive.ubuntu.com/ubuntu focal-backports/main amd64 Packages [2568 B]
+Get:34 http://archive.ubuntu.com/ubuntu focal-backports/main Translation-en [1120 B]
+Get:35 http://archive.ubuntu.com/ubuntu focal-backports/main amd64 c-n-f Metadata [400 B]
+Get:36 http://archive.ubuntu.com/ubuntu focal-backports/restricted amd64 c-n-f Metadata [116 B]
+Get:37 http://archive.ubuntu.com/ubuntu focal-backports/universe amd64 Packages [5788 B]
+Get:38 http://archive.ubuntu.com/ubuntu focal-backports/universe Translation-en [2060 B]
+Get:39 http://archive.ubuntu.com/ubuntu focal-backports/universe amd64 c-n-f Metadata [288 B]
+Get:40 http://archive.ubuntu.com/ubuntu focal-backports/multiverse amd64 c-n-f Metadata [116 B]
+Fetched 19.4 MB in 12s (1650 kB/s)
+Reading package lists... Done
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+Calculating upgrade... Done
+The following packages will be upgraded:
+  alsa-ucm-conf apt apt-utils cloud-init gcc-10-base initramfs-tools initramfs-tools-bin initramfs-tools-core
+  libapt-pkg6.0 libgcc-s1 libhogweed5 libnettle7 libnss-systemd libpam-systemd libprocps8 libpulse0 libpulsedsp
+  libpython3.8 libpython3.8-minimal libpython3.8-stdlib libstdc++6 libsystemd0 libudev1 libuv1 libxml2 linux-base
+  open-vm-tools procps pulseaudio-utils python3.8 python3.8-minimal snapd systemd systemd-sysv systemd-timesyncd
+  ubuntu-advantage-tools udev update-notifier-common
+38 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 49.3 MB of archives.
+After this operation, 8595 kB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 gcc-10-base amd64 10.3.0-1ubuntu1~20.04 [20.2 kB]
+Get:2 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libgcc-s1 amd64 10.3.0-1ubuntu1~20.04 [41.8 kB]
+Get:3 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libstdc++6 amd64 10.3.0-1ubuntu1~20.04 [501 kB]
+Get:4 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libnss-systemd amd64 245.4-4ubuntu3.7 [96.1 kB]
+Get:5 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 udev amd64 245.4-4ubuntu3.7 [1366 kB]
+Get:6 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libudev1 amd64 245.4-4ubuntu3.7 [77.6 kB]
+Get:7 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 systemd-sysv amd64 245.4-4ubuntu3.7 [10.3 kB]
+Get:8 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 systemd-timesyncd amd64 245.4-4ubuntu3.7 [28.1 kB]
+Get:9 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libpam-systemd amd64 245.4-4ubuntu3.7 [186 kB]
+Get:10 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 systemd amd64 245.4-4ubuntu3.7 [3806 kB]
+Get:11 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libsystemd0 amd64 245.4-4ubuntu3.7 [270 kB]
+Get:12 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libapt-pkg6.0 amd64 2.0.6 [835 kB]
+Get:13 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 apt amd64 2.0.6 [1296 kB]
+Get:14 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 apt-utils amd64 2.0.6 [216 kB]
+Get:15 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libpython3.8 amd64 3.8.10-0ubuntu1~20.04 [1625 kB]
+Get:16 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 python3.8 amd64 3.8.10-0ubuntu1~20.04 [387 kB]
+Get:17 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libpython3.8-stdlib amd64 3.8.10-0ubuntu1~20.04 [1675 kB]
+Get:18 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 python3.8-minimal amd64 3.8.10-0ubuntu1~20.04 [1898 kB]Get:19 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libpython3.8-minimal amd64 3.8.10-0ubuntu1~20.04 [717 kB]
+Get:20 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 update-notifier-common all 3.192.30.8 [132 kB]
+Get:21 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libnettle7 amd64 3.5.1+really3.5.1-2ubuntu0.2 [115 kB]
+Get:22 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libhogweed5 amd64 3.5.1+really3.5.1-2ubuntu0.2 [138 kB]Get:23 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libprocps8 amd64 2:3.3.16-1ubuntu2.2 [33.0 kB]
+Get:24 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 procps amd64 2:3.3.16-1ubuntu2.2 [232 kB]
+Get:25 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libxml2 amd64 2.9.10+dfsg-5ubuntu0.20.04.1 [640 kB]
+Get:26 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 ubuntu-advantage-tools amd64 27.1~20.04.1 [837 kB]
+Get:27 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libuv1 amd64 1.34.2-1ubuntu1.3 [80.8 kB]
+Get:28 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 alsa-ucm-conf all 1.2.2-1ubuntu0.8 [26.5 kB]
+Get:29 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 initramfs-tools all 0.136ubuntu6.6 [9248 B]
+Get:30 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 initramfs-tools-core all 0.136ubuntu6.6 [47.7 kB]
+Get:31 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 initramfs-tools-bin amd64 0.136ubuntu6.6 [10.9 kB]
+Get:32 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 linux-base all 4.5ubuntu3.6 [17.8 kB]
+Get:33 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libpulsedsp amd64 1:13.99.1-1ubuntu3.11 [21.7 kB]
+Get:34 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 pulseaudio-utils amd64 1:13.99.1-1ubuntu3.11 [55.0 kB]
+Get:35 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libpulse0 amd64 1:13.99.1-1ubuntu3.11 [262 kB]
+Get:36 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 snapd amd64 2.49.2+20.04 [30.6 MB]
+Get:37 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 cloud-init all 21.2-3-g899bfaa9-0ubuntu2~20.04.1 [456 kB]
+Get:38 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 open-vm-tools amd64 2:11.2.5-2ubuntu1~ubuntu20.04.1 [604 kB]
+Fetched 49.3 MB in 21s (2334 kB/s)
+Extracting templates from packages: 100%
+Preconfiguring packages ...
+(Reading database ... 32232 files and directories currently installed.)
+Preparing to unpack .../gcc-10-base_10.3.0-1ubuntu1~20.04_amd64.deb ...
+Unpacking gcc-10-base:amd64 (10.3.0-1ubuntu1~20.04) over (10.2.0-5ubuntu1~20.04) ...
+Setting up gcc-10-base:amd64 (10.3.0-1ubuntu1~20.04) ...
+(Reading database ... 32232 files and directories currently installed.)
+Preparing to unpack .../libgcc-s1_10.3.0-1ubuntu1~20.04_amd64.deb ...
+Unpacking libgcc-s1:amd64 (10.3.0-1ubuntu1~20.04) over (10.2.0-5ubuntu1~20.04) ...
+Setting up libgcc-s1:amd64 (10.3.0-1ubuntu1~20.04) ...
+(Reading database ... 32232 files and directories currently installed.)
+Preparing to unpack .../libstdc++6_10.3.0-1ubuntu1~20.04_amd64.deb ...
+Unpacking libstdc++6:amd64 (10.3.0-1ubuntu1~20.04) over (10.2.0-5ubuntu1~20.04) ...
+Setting up libstdc++6:amd64 (10.3.0-1ubuntu1~20.04) ...
+(Reading database ... 32232 files and directories currently installed.)
+Preparing to unpack .../libnss-systemd_245.4-4ubuntu3.7_amd64.deb ...
+Unpacking libnss-systemd:amd64 (245.4-4ubuntu3.7) over (245.4-4ubuntu3.6) ...
+Preparing to unpack .../udev_245.4-4ubuntu3.7_amd64.deb ...
+Unpacking udev (245.4-4ubuntu3.7) over (245.4-4ubuntu3.6) ...
+Preparing to unpack .../libudev1_245.4-4ubuntu3.7_amd64.deb ...
+Unpacking libudev1:amd64 (245.4-4ubuntu3.7) over (245.4-4ubuntu3.6) ...
+Setting up libudev1:amd64 (245.4-4ubuntu3.7) ...
+(Reading database ... 32232 files and directories currently installed.)
+Preparing to unpack .../systemd-sysv_245.4-4ubuntu3.7_amd64.deb ...
+Unpacking systemd-sysv (245.4-4ubuntu3.7) over (245.4-4ubuntu3.6) ...
+Preparing to unpack .../systemd-timesyncd_245.4-4ubuntu3.7_amd64.deb ...
+Unpacking systemd-timesyncd (245.4-4ubuntu3.7) over (245.4-4ubuntu3.6) ...
+Preparing to unpack .../libpam-systemd_245.4-4ubuntu3.7_amd64.deb ...
+Unpacking libpam-systemd:amd64 (245.4-4ubuntu3.7) over (245.4-4ubuntu3.6) ...
+Preparing to unpack .../systemd_245.4-4ubuntu3.7_amd64.deb ...
+Unpacking systemd (245.4-4ubuntu3.7) over (245.4-4ubuntu3.6) ...
+Preparing to unpack .../libsystemd0_245.4-4ubuntu3.7_amd64.deb ...
+Unpacking libsystemd0:amd64 (245.4-4ubuntu3.7) over (245.4-4ubuntu3.6) ...
+Setting up libsystemd0:amd64 (245.4-4ubuntu3.7) ...
+(Reading database ... 32232 files and directories currently installed.)
+Preparing to unpack .../libapt-pkg6.0_2.0.6_amd64.deb ...
+Unpacking libapt-pkg6.0:amd64 (2.0.6) over (2.0.5) ...
+Setting up libapt-pkg6.0:amd64 (2.0.6) ...
+(Reading database ... 32232 files and directories currently installed.)
+Preparing to unpack .../archives/apt_2.0.6_amd64.deb ...
+Unpacking apt (2.0.6) over (2.0.5) ...
+Setting up apt (2.0.6) ...
+(Reading database ... 32232 files and directories currently installed.)
+Preparing to unpack .../0-apt-utils_2.0.6_amd64.deb ...
+Unpacking apt-utils (2.0.6) over (2.0.5) ...
+Preparing to unpack .../1-libpython3.8_3.8.10-0ubuntu1~20.04_amd64.deb ...
+Unpacking libpython3.8:amd64 (3.8.10-0ubuntu1~20.04) over (3.8.5-1~20.04.3) ...
+Preparing to unpack .../2-python3.8_3.8.10-0ubuntu1~20.04_amd64.deb ...
+Unpacking python3.8 (3.8.10-0ubuntu1~20.04) over (3.8.5-1~20.04.3) ...
+Preparing to unpack .../3-libpython3.8-stdlib_3.8.10-0ubuntu1~20.04_amd64.deb ...
+Unpacking libpython3.8-stdlib:amd64 (3.8.10-0ubuntu1~20.04) over (3.8.5-1~20.04.3) ...
+Preparing to unpack .../4-python3.8-minimal_3.8.10-0ubuntu1~20.04_amd64.deb ...
+Unpacking python3.8-minimal (3.8.10-0ubuntu1~20.04) over (3.8.5-1~20.04.3) ...
+Preparing to unpack .../5-libpython3.8-minimal_3.8.10-0ubuntu1~20.04_amd64.deb ...
+Unpacking libpython3.8-minimal:amd64 (3.8.10-0ubuntu1~20.04) over (3.8.5-1~20.04.3) ...
+Preparing to unpack .../6-update-notifier-common_3.192.30.8_all.deb ...
+Unpacking update-notifier-common (3.192.30.8) over (3.192.30.7) ...
+Preparing to unpack .../7-libnettle7_3.5.1+really3.5.1-2ubuntu0.2_amd64.deb ...
+Unpacking libnettle7:amd64 (3.5.1+really3.5.1-2ubuntu0.2) over (3.5.1+really3.5.1-2ubuntu0.1) ...
+Setting up libnettle7:amd64 (3.5.1+really3.5.1-2ubuntu0.2) ...
+(Reading database ... 32232 files and directories currently installed.)
+Preparing to unpack .../libhogweed5_3.5.1+really3.5.1-2ubuntu0.2_amd64.deb ...
+Unpacking libhogweed5:amd64 (3.5.1+really3.5.1-2ubuntu0.2) over (3.5.1+really3.5.1-2ubuntu0.1) ...
+Setting up libhogweed5:amd64 (3.5.1+really3.5.1-2ubuntu0.2) ...
+(Reading database ... 32232 files and directories currently installed.)
+Preparing to unpack .../00-libprocps8_2%3a3.3.16-1ubuntu2.2_amd64.deb ...
+Unpacking libprocps8:amd64 (2:3.3.16-1ubuntu2.2) over (2:3.3.16-1ubuntu2.1) ...
+Preparing to unpack .../01-procps_2%3a3.3.16-1ubuntu2.2_amd64.deb ...
+Unpacking procps (2:3.3.16-1ubuntu2.2) over (2:3.3.16-1ubuntu2.1) ...
+Preparing to unpack .../02-libxml2_2.9.10+dfsg-5ubuntu0.20.04.1_amd64.deb ...
+Unpacking libxml2:amd64 (2.9.10+dfsg-5ubuntu0.20.04.1) over (2.9.10+dfsg-5) ...
+Preparing to unpack .../03-ubuntu-advantage-tools_27.1~20.04.1_amd64.deb ...
+Unpacking ubuntu-advantage-tools (27.1~20.04.1) over (27.0.2~20.04.1) ...
+Preparing to unpack .../04-libuv1_1.34.2-1ubuntu1.3_amd64.deb ...
+Unpacking libuv1:amd64 (1.34.2-1ubuntu1.3) over (1.34.2-1ubuntu1.1) ...
+Preparing to unpack .../05-alsa-ucm-conf_1.2.2-1ubuntu0.8_all.deb ...
+Unpacking alsa-ucm-conf (1.2.2-1ubuntu0.8) over (1.2.2-1ubuntu0.7) ...
+Preparing to unpack .../06-initramfs-tools_0.136ubuntu6.6_all.deb ...
+Unpacking initramfs-tools (0.136ubuntu6.6) over (0.136ubuntu6.5) ...
+Preparing to unpack .../07-initramfs-tools-core_0.136ubuntu6.6_all.deb ...
+Unpacking initramfs-tools-core (0.136ubuntu6.6) over (0.136ubuntu6.5) ...
+Preparing to unpack .../08-initramfs-tools-bin_0.136ubuntu6.6_amd64.deb ...
+Unpacking initramfs-tools-bin (0.136ubuntu6.6) over (0.136ubuntu6.5) ...
+Preparing to unpack .../09-linux-base_4.5ubuntu3.6_all.deb ...
+Unpacking linux-base (4.5ubuntu3.6) over (4.5ubuntu3.1) ...
+Preparing to unpack .../10-libpulsedsp_1%3a13.99.1-1ubuntu3.11_amd64.deb ...
+Unpacking libpulsedsp:amd64 (1:13.99.1-1ubuntu3.11) over (1:13.99.1-1ubuntu3.10) ...
+Preparing to unpack .../11-pulseaudio-utils_1%3a13.99.1-1ubuntu3.11_amd64.deb ...
+Unpacking pulseaudio-utils (1:13.99.1-1ubuntu3.11) over (1:13.99.1-1ubuntu3.10) ...
+Preparing to unpack .../12-libpulse0_1%3a13.99.1-1ubuntu3.11_amd64.deb ...
+Unpacking libpulse0:amd64 (1:13.99.1-1ubuntu3.11) over (1:13.99.1-1ubuntu3.10) ...
+Preparing to unpack .../13-snapd_2.49.2+20.04_amd64.deb ...
+Unpacking snapd (2.49.2+20.04) over (2.48.3+20.04) ...
+Preparing to unpack .../14-cloud-init_21.2-3-g899bfaa9-0ubuntu2~20.04.1_all.deb ...
+Unpacking cloud-init (21.2-3-g899bfaa9-0ubuntu2~20.04.1) over (21.1-19-gbad84ad4-0ubuntu1~20.04.2) ...
+Preparing to unpack .../15-open-vm-tools_2%3a11.2.5-2ubuntu1~ubuntu20.04.1_amd64.deb ...
+Unpacking open-vm-tools (2:11.2.5-2ubuntu1~ubuntu20.04.1) over (2:11.0.5-4) ...
+Setting up libpython3.8-minimal:amd64 (3.8.10-0ubuntu1~20.04) ...
+Setting up apt-utils (2.0.6) ...
+Setting up linux-base (4.5ubuntu3.6) ...
+Setting up alsa-ucm-conf (1.2.2-1ubuntu0.8) ...
+Setting up libpulse0:amd64 (1:13.99.1-1ubuntu3.11) ...
+Setting up update-notifier-common (3.192.30.8) ...
+Setting up libpulsedsp:amd64 (1:13.99.1-1ubuntu3.11) ...
+Setting up libuv1:amd64 (1.34.2-1ubuntu1.3) ...
+Setting up pulseaudio-utils (1:13.99.1-1ubuntu3.11) ...
+Setting up udev (245.4-4ubuntu3.7) ...
+invoke-rc.d: could not determine current runlevel
+update-initramfs: deferring update (trigger activated)
+Setting up python3.8-minimal (3.8.10-0ubuntu1~20.04) ...
+Setting up ubuntu-advantage-tools (27.1~20.04.1) ...
+Setting up libpython3.8-stdlib:amd64 (3.8.10-0ubuntu1~20.04) ...
+Setting up python3.8 (3.8.10-0ubuntu1~20.04) ...
+Setting up libxml2:amd64 (2.9.10+dfsg-5ubuntu0.20.04.1) ...
+Setting up libprocps8:amd64 (2:3.3.16-1ubuntu2.2) ...
+Setting up initramfs-tools-bin (0.136ubuntu6.6) ...
+Setting up libpython3.8:amd64 (3.8.10-0ubuntu1~20.04) ...
+Setting up open-vm-tools (2:11.2.5-2ubuntu1~ubuntu20.04.1) ...
+Installing new version of config file /etc/vmware-tools/tools.conf.example ...
+Installing new version of config file /etc/vmware-tools/vgauth.conf ...
+invoke-rc.d: could not determine current runlevel
+Setting up procps (2:3.3.16-1ubuntu2.2) ...
+Setting up initramfs-tools-core (0.136ubuntu6.6) ...
+Setting up cloud-init (21.2-3-g899bfaa9-0ubuntu2~20.04.1) ...
+Installing new version of config file /etc/cloud/templates/chef_client.rb.tmpl ...
+Setting up initramfs-tools (0.136ubuntu6.6) ...
+update-initramfs: deferring update (trigger activated)
+Setting up systemd-timesyncd (245.4-4ubuntu3.7) ...
+Setting up systemd (245.4-4ubuntu3.7) ...
+Initializing machine ID from random generator.
+Setting up snapd (2.49.2+20.04) ...
+Installing new version of config file /etc/apparmor.d/usr.lib.snapd.snap-confine.real ...
+Setting up systemd-sysv (245.4-4ubuntu3.7) ...
+Setting up libnss-systemd:amd64 (245.4-4ubuntu3.7) ...
+Setting up libpam-systemd:amd64 (245.4-4ubuntu3.7) ...
+Processing triggers for mime-support (3.64ubuntu1) ...
+Processing triggers for libc-bin (2.31-0ubuntu9.2) ...
+Processing triggers for rsyslog (8.2001.0-1ubuntu1.1) ...
+invoke-rc.d: could not determine current runlevel
+Processing triggers for man-db (2.9.1-1) ...
+Processing triggers for dbus (1.12.16-2ubuntu2.1) ...
+Processing triggers for initramfs-tools (0.136ubuntu6.6) ...
+ankiii07@LAPTOP-3V6LA37H:~$ java -version
+
+Command 'java' not found, but can be installed with:
+
+sudo apt install openjdk-11-jre-headless  # version 11.0.11+9-0ubuntu2~20.04, or
+sudo apt install default-jre              # version 2:1.11-72
+sudo apt install openjdk-13-jre-headless  # version 13.0.7+5-0ubuntu1~20.04
+sudo apt install openjdk-16-jre-headless  # version 16.0.1+9-1~20.04
+sudo apt install openjdk-8-jre-headless   # version 8u292-b10-0ubuntu1~20.04
+sudo apt install openjdk-14-jre-headless  # version 14.0.2+12-1~20.04
+
+ankiii07@LAPTOP-3V6LA37H:~$ sudo apt install openjdk-11-jre-headless
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following additional packages will be installed:
+  ca-certificates-java java-common libavahi-client3 libavahi-common-data libavahi-common3 libcups2 libgraphite2-3
+  libharfbuzz0b libjpeg-turbo8 libjpeg8 liblcms2-2 libnspr4 libnss3 libpcsclite1
+Suggested packages:
+  default-jre cups-common liblcms2-utils pcscd libnss-mdns fonts-dejavu-extra fonts-ipafont-gothic
+  fonts-ipafont-mincho fonts-wqy-microhei | fonts-wqy-zenhei fonts-indic
+The following NEW packages will be installed:
+  ca-certificates-java java-common libavahi-client3 libavahi-common-data libavahi-common3 libcups2 libgraphite2-3
+  libharfbuzz0b libjpeg-turbo8 libjpeg8 liblcms2-2 libnspr4 libnss3 libpcsclite1 openjdk-11-jre-headless
+0 upgraded, 15 newly installed, 0 to remove and 0 not upgraded.
+Need to get 39.7 MB of archives.
+After this operation, 179 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://archive.ubuntu.com/ubuntu focal/main amd64 java-common all 0.72 [6816 B]
+Get:2 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libavahi-common-data amd64 0.7-4ubuntu7.1 [21.4 kB]
+Get:3 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libavahi-common3 amd64 0.7-4ubuntu7.1 [21.7 kB]
+Get:4 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libavahi-client3 amd64 0.7-4ubuntu7.1 [25.5 kB]
+Get:5 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libcups2 amd64 2.3.1-9ubuntu1.1 [233 kB]
+Get:6 http://archive.ubuntu.com/ubuntu focal/main amd64 liblcms2-2 amd64 2.9-4 [140 kB]
+Get:7 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libjpeg-turbo8 amd64 2.0.3-0ubuntu1.20.04.1 [117 kB]
+Get:8 http://archive.ubuntu.com/ubuntu focal/main amd64 libjpeg8 amd64 8c-2ubuntu8 [2194 B]
+Get:9 http://archive.ubuntu.com/ubuntu focal/main amd64 libnspr4 amd64 2:4.25-1 [107 kB]
+Get:10 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libnss3 amd64 2:3.49.1-1ubuntu1.5 [1256 kB]
+Get:11 http://archive.ubuntu.com/ubuntu focal/main amd64 libgraphite2-3 amd64 1.3.13-11build1 [73.5 kB]
+Get:12 http://archive.ubuntu.com/ubuntu focal/main amd64 libharfbuzz0b amd64 2.6.4-1ubuntu4 [391 kB]
+Get:13 http://archive.ubuntu.com/ubuntu focal/main amd64 libpcsclite1 amd64 1.8.26-3 [22.0 kB]
+Get:14 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 openjdk-11-jre-headless amd64 11.0.11+9-0ubuntu2~20.04 [37.2 MB]
+Get:15 http://archive.ubuntu.com/ubuntu focal/main amd64 ca-certificates-java all 20190405ubuntu1 [12.2 kB]
+Fetched 39.7 MB in 10s (4149 kB/s)
+Selecting previously unselected package java-common.
+(Reading database ... 32250 files and directories currently installed.)
+Preparing to unpack .../00-java-common_0.72_all.deb ...
+Unpacking java-common (0.72) ...
+Selecting previously unselected package libavahi-common-data:amd64.
+Preparing to unpack .../01-libavahi-common-data_0.7-4ubuntu7.1_amd64.deb ...
+Unpacking libavahi-common-data:amd64 (0.7-4ubuntu7.1) ...
+Selecting previously unselected package libavahi-common3:amd64.
+Preparing to unpack .../02-libavahi-common3_0.7-4ubuntu7.1_amd64.deb ...
+Unpacking libavahi-common3:amd64 (0.7-4ubuntu7.1) ...
+Selecting previously unselected package libavahi-client3:amd64.
+Preparing to unpack .../03-libavahi-client3_0.7-4ubuntu7.1_amd64.deb ...
+Unpacking libavahi-client3:amd64 (0.7-4ubuntu7.1) ...
+Selecting previously unselected package libcups2:amd64.
+Preparing to unpack .../04-libcups2_2.3.1-9ubuntu1.1_amd64.deb ...
+Unpacking libcups2:amd64 (2.3.1-9ubuntu1.1) ...
+Selecting previously unselected package liblcms2-2:amd64.
+Preparing to unpack .../05-liblcms2-2_2.9-4_amd64.deb ...
+Unpacking liblcms2-2:amd64 (2.9-4) ...
+Selecting previously unselected package libjpeg-turbo8:amd64.
+Preparing to unpack .../06-libjpeg-turbo8_2.0.3-0ubuntu1.20.04.1_amd64.deb ...
+Unpacking libjpeg-turbo8:amd64 (2.0.3-0ubuntu1.20.04.1) ...
+Selecting previously unselected package libjpeg8:amd64.
+Preparing to unpack .../07-libjpeg8_8c-2ubuntu8_amd64.deb ...
+Unpacking libjpeg8:amd64 (8c-2ubuntu8) ...
+Selecting previously unselected package libnspr4:amd64.
+Preparing to unpack .../08-libnspr4_2%3a4.25-1_amd64.deb ...
+Unpacking libnspr4:amd64 (2:4.25-1) ...
+Selecting previously unselected package libnss3:amd64.
+Preparing to unpack .../09-libnss3_2%3a3.49.1-1ubuntu1.5_amd64.deb ...
+Unpacking libnss3:amd64 (2:3.49.1-1ubuntu1.5) ...
+Selecting previously unselected package libgraphite2-3:amd64.
+Preparing to unpack .../10-libgraphite2-3_1.3.13-11build1_amd64.deb ...
+Unpacking libgraphite2-3:amd64 (1.3.13-11build1) ...
+Selecting previously unselected package libharfbuzz0b:amd64.
+Preparing to unpack .../11-libharfbuzz0b_2.6.4-1ubuntu4_amd64.deb ...
+Unpacking libharfbuzz0b:amd64 (2.6.4-1ubuntu4) ...
+Selecting previously unselected package libpcsclite1:amd64.
+Preparing to unpack .../12-libpcsclite1_1.8.26-3_amd64.deb ...
+Unpacking libpcsclite1:amd64 (1.8.26-3) ...
+Selecting previously unselected package openjdk-11-jre-headless:amd64.
+Preparing to unpack .../13-openjdk-11-jre-headless_11.0.11+9-0ubuntu2~20.04_amd64.deb ...
+Unpacking openjdk-11-jre-headless:amd64 (11.0.11+9-0ubuntu2~20.04) ...
+Selecting previously unselected package ca-certificates-java.
+Preparing to unpack .../14-ca-certificates-java_20190405ubuntu1_all.deb ...
+Unpacking ca-certificates-java (20190405ubuntu1) ...
+Setting up libgraphite2-3:amd64 (1.3.13-11build1) ...
+Setting up liblcms2-2:amd64 (2.9-4) ...
+Setting up java-common (0.72) ...
+Setting up libnspr4:amd64 (2:4.25-1) ...
+Setting up libavahi-common-data:amd64 (0.7-4ubuntu7.1) ...
+Setting up libpcsclite1:amd64 (1.8.26-3) ...
+Setting up libjpeg-turbo8:amd64 (2.0.3-0ubuntu1.20.04.1) ...
+Setting up libharfbuzz0b:amd64 (2.6.4-1ubuntu4) ...
+Setting up libjpeg8:amd64 (8c-2ubuntu8) ...
+Setting up libavahi-common3:amd64 (0.7-4ubuntu7.1) ...
+Setting up libnss3:amd64 (2:3.49.1-1ubuntu1.5) ...
+Setting up libavahi-client3:amd64 (0.7-4ubuntu7.1) ...
+Setting up libcups2:amd64 (2.3.1-9ubuntu1.1) ...
+Setting up ca-certificates-java (20190405ubuntu1) ...
+head: cannot open '/etc/ssl/certs/java/cacerts' for reading: No such file or directory
+Adding debian:Buypass_Class_2_Root_CA.pem
+Adding debian:Microsec_e-Szigno_Root_CA_2009.pem
+Adding debian:XRamp_Global_CA_Root.pem
+Adding debian:Certigna_Root_CA.pem
+Adding debian:TrustCor_RootCert_CA-2.pem
+Adding debian:Network_Solutions_Certificate_Authority.pem
+Adding debian:VeriSign_Universal_Root_Certification_Authority.pem
+Adding debian:Staat_der_Nederlanden_Root_CA_-_G3.pem
+Adding debian:Entrust_Root_Certification_Authority_-_G4.pem
+Adding debian:T-TeleSec_GlobalRoot_Class_3.pem
+Adding debian:QuoVadis_Root_CA_1_G3.pem
+Adding debian:Global_Chambersign_Root_-_2008.pem
+Adding debian:Cybertrust_Global_Root.pem
+Adding debian:AC_RAIZ_FNMT-RCM.pem
+Adding debian:USERTrust_RSA_Certification_Authority.pem
+Adding debian:SSL.com_EV_Root_Certification_Authority_RSA_R2.pem
+Adding debian:CFCA_EV_ROOT.pem
+Adding debian:D-TRUST_Root_Class_3_CA_2_EV_2009.pem
+Adding debian:DigiCert_High_Assurance_EV_Root_CA.pem
+Adding debian:DigiCert_Assured_ID_Root_CA.pem
+Adding debian:GTS_Root_R4.pem
+Adding debian:Go_Daddy_Root_Certificate_Authority_-_G2.pem
+Adding debian:Actalis_Authentication_Root_CA.pem
+Adding debian:Hongkong_Post_Root_CA_3.pem
+Adding debian:GlobalSign_Root_CA_-_R3.pem
+Adding debian:Security_Communication_Root_CA.pem
+Adding debian:GTS_Root_R3.pem
+Adding debian:TrustCor_ECA-1.pem
+Adding debian:GlobalSign_ECC_Root_CA_-_R5.pem
+Adding debian:Trustwave_Global_ECC_P256_Certification_Authority.pem
+Adding debian:Amazon_Root_CA_2.pem
+Adding debian:Certigna.pem
+Adding debian:GlobalSign_Root_CA.pem
+Adding debian:GlobalSign_ECC_Root_CA_-_R4.pem
+Adding debian:COMODO_RSA_Certification_Authority.pem
+Adding debian:DigiCert_Global_Root_G2.pem
+Adding debian:SecureSign_RootCA11.pem
+Adding debian:SZAFIR_ROOT_CA2.pem
+Adding debian:Autoridad_de_Certificacion_Firmaprofesional_CIF_A62634068.pem
+Adding debian:GTS_Root_R2.pem
+Adding debian:AffirmTrust_Premium_ECC.pem
+Adding debian:Trustwave_Global_Certification_Authority.pem
+Adding debian:SSL.com_Root_Certification_Authority_ECC.pem
+Adding debian:DigiCert_Trusted_Root_G4.pem
+Adding debian:NAVER_Global_Root_Certification_Authority.pem
+Adding debian:Baltimore_CyberTrust_Root.pem
+Adding debian:E-Tugra_Certification_Authority.pem
+Adding debian:T-TeleSec_GlobalRoot_Class_2.pem
+Adding debian:Certum_Trusted_Network_CA.pem
+Adding debian:SwissSign_Gold_CA_-_G2.pem
+Adding debian:Hongkong_Post_Root_CA_1.pem
+Adding debian:Entrust_Root_Certification_Authority.pem
+Adding debian:USERTrust_ECC_Certification_Authority.pem
+Adding debian:emSign_ECC_Root_CA_-_G3.pem
+Adding debian:Microsoft_ECC_Root_Certificate_Authority_2017.pem
+Adding debian:Trustwave_Global_ECC_P384_Certification_Authority.pem
+Adding debian:DigiCert_Global_Root_G3.pem
+Adding debian:ISRG_Root_X1.pem
+Adding debian:SSL.com_EV_Root_Certification_Authority_ECC.pem
+Adding debian:GDCA_TrustAUTH_R5_ROOT.pem
+Adding debian:Go_Daddy_Class_2_CA.pem
+Adding debian:GTS_Root_R1.pem
+Adding debian:COMODO_ECC_Certification_Authority.pem
+Adding debian:NetLock_Arany_=Class_Gold=_Főtanúsítvány.pem
+Adding debian:emSign_Root_CA_-_G1.pem
+Adding debian:UCA_Global_G2_Root.pem
+Adding debian:QuoVadis_Root_CA_2_G3.pem
+Adding debian:Certum_Trusted_Network_CA_2.pem
+Adding debian:IdenTrust_Public_Sector_Root_CA_1.pem
+Adding debian:Entrust.net_Premium_2048_Secure_Server_CA.pem
+Adding debian:QuoVadis_Root_CA_2.pem
+Adding debian:ACCVRAIZ1.pem
+Adding debian:TeliaSonera_Root_CA_v1.pem
+Adding debian:SecureTrust_CA.pem
+Adding debian:OISTE_WISeKey_Global_Root_GB_CA.pem
+Adding debian:ePKI_Root_Certification_Authority.pem
+Adding debian:AffirmTrust_Networking.pem
+Adding debian:TWCA_Global_Root_CA.pem
+Adding debian:Hellenic_Academic_and_Research_Institutions_ECC_RootCA_2015.pem
+Adding debian:Staat_der_Nederlanden_EV_Root_CA.pem
+Adding debian:QuoVadis_Root_CA_3_G3.pem
+Adding debian:TUBITAK_Kamu_SM_SSL_Kok_Sertifikasi_-_Surum_1.pem
+Adding debian:D-TRUST_Root_Class_3_CA_2_2009.pem
+Adding debian:Chambers_of_Commerce_Root_-_2008.pem
+Adding debian:certSIGN_ROOT_CA.pem
+Adding debian:emSign_Root_CA_-_C1.pem
+Adding debian:QuoVadis_Root_CA.pem
+Adding debian:GlobalSign_Root_CA_-_R6.pem
+Adding debian:Amazon_Root_CA_1.pem
+Adding debian:Trustis_FPS_Root_CA.pem
+Adding debian:DST_Root_CA_X3.pem
+Adding debian:TWCA_Root_Certification_Authority.pem
+Adding debian:IdenTrust_Commercial_Root_CA_1.pem
+Adding debian:Starfield_Root_Certificate_Authority_-_G2.pem
+Adding debian:SwissSign_Silver_CA_-_G2.pem
+Adding debian:certSIGN_Root_CA_G2.pem
+Adding debian:e-Szigno_Root_CA_2017.pem
+Adding debian:DigiCert_Assured_ID_Root_G3.pem
+Adding debian:COMODO_Certification_Authority.pem
+Adding debian:Buypass_Class_3_Root_CA.pem
+Adding debian:AffirmTrust_Premium.pem
+Adding debian:CA_Disig_Root_R2.pem
+Adding debian:QuoVadis_Root_CA_3.pem
+Adding debian:UCA_Extended_Validation_Root.pem
+Adding debian:Amazon_Root_CA_3.pem
+Adding debian:emSign_ECC_Root_CA_-_C3.pem
+Adding debian:GeoTrust_Primary_Certification_Authority_-_G2.pem
+Adding debian:Secure_Global_CA.pem
+Adding debian:Amazon_Root_CA_4.pem
+Adding debian:Comodo_AAA_Services_root.pem
+Adding debian:DigiCert_Assured_ID_Root_G2.pem
+Adding debian:Starfield_Services_Root_Certificate_Authority_-_G2.pem
+Adding debian:AffirmTrust_Commercial.pem
+Adding debian:Starfield_Class_2_CA.pem
+Adding debian:Sonera_Class_2_Root_CA.pem
+Adding debian:EC-ACC.pem
+Adding debian:TrustCor_RootCert_CA-1.pem
+Adding debian:Security_Communication_RootCA2.pem
+Adding debian:Entrust_Root_Certification_Authority_-_EC1.pem
+Adding debian:DigiCert_Global_Root_CA.pem
+Adding debian:Hellenic_Academic_and_Research_Institutions_RootCA_2011.pem
+Adding debian:GlobalSign_Root_CA_-_R2.pem
+Adding debian:OISTE_WISeKey_Global_Root_GC_CA.pem
+Adding debian:Hellenic_Academic_and_Research_Institutions_RootCA_2015.pem
+Adding debian:SSL.com_Root_Certification_Authority_RSA.pem
+Adding debian:Izenpe.com.pem
+Adding debian:Entrust_Root_Certification_Authority_-_G2.pem
+Adding debian:Microsoft_RSA_Root_Certificate_Authority_2017.pem
+Adding debian:Atos_TrustedRoot_2011.pem
+done.
+Processing triggers for libc-bin (2.31-0ubuntu9.2) ...
+Processing triggers for man-db (2.9.1-1) ...
+Processing triggers for ca-certificates (20210119~20.04.1) ...
+Updating certificates in /etc/ssl/certs...
+0 added, 0 removed; done.
+Running hooks in /etc/ca-certificates/update.d...
+
+done.
+done.
+Setting up openjdk-11-jre-headless:amd64 (11.0.11+9-0ubuntu2~20.04) ...
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/java to provide /usr/bin/java (java) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/jjs to provide /usr/bin/jjs (jjs) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/keytool to provide /usr/bin/keytool (keytool) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/rmid to provide /usr/bin/rmid (rmid) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/rmiregistry to provide /usr/bin/rmiregistry (rmiregistry) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/pack200 to provide /usr/bin/pack200 (pack200) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/unpack200 to provide /usr/bin/unpack200 (unpack200) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/lib/jexec to provide /usr/bin/jexec (jexec) in auto mode
+ankiii07@LAPTOP-3V6LA37H:~$ java -version
+openjdk version "11.0.11" 2021-04-20
+OpenJDK Runtime Environment (build 11.0.11+9-Ubuntu-0ubuntu2.20.04)
+OpenJDK 64-Bit Server VM (build 11.0.11+9-Ubuntu-0ubuntu2.20.04, mixed mode, sharing)
+ankiii07@LAPTOP-3V6LA37H:~$ wget https://ftp.wayne.edu/apache/kafka/2.6.0/kafka_2.13-2.6.0.tgz
+--2021-07-09 02:33:20--  https://ftp.wayne.edu/apache/kafka/2.6.0/kafka_2.13-2.6.0.tgz
+Resolving ftp.wayne.edu (ftp.wayne.edu)... 141.217.0.199
+Connecting to ftp.wayne.edu (ftp.wayne.edu)|141.217.0.199|:443... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2021-07-09 02:33:21 ERROR 404: Not Found.
+
+ankiii07@LAPTOP-3V6LA37H:~$ ls -lrt
+total 0
+ankiii07@LAPTOP-3V6LA37H:~$ wget https://ftp.wayne.edu/apache/kafka/2.6.0/kafka_2.13-2.6.0.tgz
+--2021-07-09 02:41:23--  https://ftp.wayne.edu/apache/kafka/2.6.0/kafka_2.13-2.6.0.tgz
+Resolving ftp.wayne.edu (ftp.wayne.edu)... 141.217.0.199
+Connecting to ftp.wayne.edu (ftp.wayne.edu)|141.217.0.199|:443... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2021-07-09 02:41:24 ERROR 404: Not Found.
+
+ankiii07@LAPTOP-3V6LA37H:~$ wget https://ftp.wayne.edu/apache/kafka/2.6.0/kafka_2.13-2.8.0.tgz
+--2021-07-09 02:42:29--  https://ftp.wayne.edu/apache/kafka/2.6.0/kafka_2.13-2.8.0.tgz
+Resolving ftp.wayne.edu (ftp.wayne.edu)... 141.217.0.199
+Connecting to ftp.wayne.edu (ftp.wayne.edu)|141.217.0.199|:443... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2021-07-09 02:42:30 ERROR 404: Not Found.
+
+ankiii07@LAPTOP-3V6LA37H:~$ wget https://ftp.wayne.edu/apache/kafka/2.6.0/kafka_2.13-2.6.0.tgz
+--2021-07-09 02:43:15--  https://ftp.wayne.edu/apache/kafka/2.6.0/kafka_2.13-2.6.0.tgz
+Resolving ftp.wayne.edu (ftp.wayne.edu)... 141.217.0.199
+Connecting to ftp.wayne.edu (ftp.wayne.edu)|141.217.0.199|:443... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2021-07-09 02:43:16 ERROR 404: Not Found.
+
+ankiii07@LAPTOP-3V6LA37H:~$ tar -xzf kafka_2.13-2.6.0.tgz
+d kafka_2.13-2.6.0
+tar (child): kafka_2.13-2.6.0.tgz: Cannot open: No such file or directory
+tar (child): Error is not recoverable: exiting now
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+ankiii07@LAPTOP-3V6LA37H:~$ cd kafka_2.13-2.6.0
+-bash: cd: kafka_2.13-2.6.0: No such file or directory
+ankiii07@LAPTOP-3V6LA37H:~$ wget https://mirrors.estointernet.in/apache/kafka/2.8.0/kafka_2.13-2.8.0.tgz
+--2021-07-09 02:47:07--  https://mirrors.estointernet.in/apache/kafka/2.8.0/kafka_2.13-2.8.0.tgz
+Resolving mirrors.estointernet.in (mirrors.estointernet.in)... 43.255.166.254, 2403:8940:3:1::f
+Connecting to mirrors.estointernet.in (mirrors.estointernet.in)|43.255.166.254|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 71403603 (68M) [application/octet-stream]
+Saving to: ‘kafka_2.13-2.8.0.tgz’
+
+kafka_2.13-2.8.0.tgz          100%[==============================================>]  68.10M  10.7MB/s    in 7.1s
+
+2021-07-09 02:47:15 (9.65 MB/s) - ‘kafka_2.13-2.8.0.tgz’ saved [71403603/71403603]
+
+ankiii07@LAPTOP-3V6LA37H:~$ tar -xzf kafka_2.13-2.6.0.tgz
+tar (child): kafka_2.13-2.6.0.tgz: Cannot open: No such file or directory
+tar (child): Error is not recoverable: exiting now
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+ankiii07@LAPTOP-3V6LA37H:~$ ls
+kafka_2.13-2.8.0.tgz
+ankiii07@LAPTOP-3V6LA37H:~$ tar -xvf kafka_2.13-2.6.0.tgz
+tar: kafka_2.13-2.6.0.tgz: Cannot open: No such file or directory
+tar: Error is not recoverable: exiting now
+ankiii07@LAPTOP-3V6LA37H:~$ tar -xzf kafka_2.13-2.6.0.tgz
+tar (child): kafka_2.13-2.6.0.tgz: Cannot open: No such file or directory
+tar (child): Error is not recoverable: exiting now
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+ankiii07@LAPTOP-3V6LA37H:~$ tar -xzf kafka_2.13-2.8.0.tgz
+ankiii07@LAPTOP-3V6LA37H:~$ ls
+kafka_2.13-2.8.0  kafka_2.13-2.8.0.tgz
+ankiii07@LAPTOP-3V6LA37H:~$ tar -xzf kafka_2.13-2.8.0.tgz
+ankiii07@LAPTOP-3V6LA37H:~$ cd kafka_2.13-2.8.0
+ankiii07@LAPTOP-3V6LA37H:~/kafka_2.13-2.8.0$ ls
+LICENSE  NOTICE  bin  config  libs  licenses  site-docs
+ankiii07@LAPTOP-3V6LA37H:~/kafka_2.13-2.8.0$ bin/kafka-topics.sh
+Create, delete, describe, or change a topic.
+Option                                   Description
+------                                   -----------
+--alter                                  Alter the number of partitions,
+                                           replica assignment, and/or
+                                           configuration for the topic.
+--at-min-isr-partitions                  if set when describing topics, only
+                                           show partitions whose isr count is
+                                           equal to the configured minimum. Not
+                                           supported with the --zookeeper
+                                           option.
+--bootstrap-server <String: server to    REQUIRED: The Kafka server to connect
+  connect to>                              to. In case of providing this, a
+                                           direct Zookeeper connection won't be
+                                           required.
+--command-config <String: command        Property file containing configs to be
+  config property file>                    passed to Admin Client. This is used
+                                           only with --bootstrap-server option
+                                           for describing and altering broker
+                                           configs.
+--config <String: name=value>            A topic configuration override for the
+                                           topic being created or altered. The
+                                           following is a list of valid
+                                           configurations:
+                                                cleanup.policy
+                                                compression.type
+                                                delete.retention.ms
+                                                file.delete.delay.ms
+                                                flush.messages
+                                                flush.ms
+                                                follower.replication.throttled.
+                                           replicas
+                                                index.interval.bytes
+                                                leader.replication.throttled.replicas
+                                                max.compaction.lag.ms
+                                                max.message.bytes
+                                                message.downconversion.enable
+                                                message.format.version
+                                                message.timestamp.difference.max.ms
+                                                message.timestamp.type
+                                                min.cleanable.dirty.ratio
+                                                min.compaction.lag.ms
+                                                min.insync.replicas
+                                                preallocate
+                                                retention.bytes
+                                                retention.ms
+                                                segment.bytes
+                                                segment.index.bytes
+                                                segment.jitter.ms
+                                                segment.ms
+                                                unclean.leader.election.enable
+                                         See the Kafka documentation for full
+                                           details on the topic configs. It is
+                                           supported only in combination with --
+                                           create if --bootstrap-server option
+                                           is used (the kafka-configs CLI
+                                           supports altering topic configs with
+                                           a --bootstrap-server option).
+--create                                 Create a new topic.
+--delete                                 Delete a topic
+--delete-config <String: name>           A topic configuration override to be
+                                           removed for an existing topic (see
+                                           the list of configurations under the
+                                           --config option). Not supported with
+                                           the --bootstrap-server option.
+--describe                               List details for the given topics.
+--disable-rack-aware                     Disable rack aware replica assignment
+--exclude-internal                       exclude internal topics when running
+                                           list or describe command. The
+                                           internal topics will be listed by
+                                           default
+--force                                  Suppress console prompts
+--help                                   Print usage information.
+--if-exists                              if set when altering or deleting or
+                                           describing topics, the action will
+                                           only execute if the topic exists.
+--if-not-exists                          if set when creating topics, the
+                                           action will only execute if the
+                                           topic does not already exist.
+--list                                   List all available topics.
+--partitions <Integer: # of partitions>  The number of partitions for the topic
+                                           being created or altered (WARNING:
+                                           If partitions are increased for a
+                                           topic that has a key, the partition
+                                           logic or ordering of the messages
+                                           will be affected). If not supplied
+                                           for create, defaults to the cluster
+                                           default.
+--replica-assignment <String:            A list of manual partition-to-broker
+  broker_id_for_part1_replica1 :           assignments for the topic being
+  broker_id_for_part1_replica2 ,           created or altered.
+  broker_id_for_part2_replica1 :
+  broker_id_for_part2_replica2 , ...>
+--replication-factor <Integer:           The replication factor for each
+  replication factor>                      partition in the topic being
+                                           created. If not supplied, defaults
+                                           to the cluster default.
+--topic <String: topic>                  The topic to create, alter, describe
+                                           or delete. It also accepts a regular
+                                           expression, except for --create
+                                           option. Put topic name in double
+                                           quotes and use the '\' prefix to
+                                           escape regular expression symbols; e.
+                                           g. "test\.topic".
+--topics-with-overrides                  if set when describing topics, only
+                                           show topics that have overridden
+                                           configs
+--unavailable-partitions                 if set when describing topics, only
+                                           show partitions whose leader is not
+                                           available
+--under-min-isr-partitions               if set when describing topics, only
+                                           show partitions whose isr count is
+                                           less than the configured minimum.
+                                           Not supported with the --zookeeper
+                                           option.
+--under-replicated-partitions            if set when describing topics, only
+                                           show under replicated partitions
+--version                                Display Kafka version.
+--zookeeper <String: hosts>              DEPRECATED, The connection string for
+                                           the zookeeper connection in the form
+                                           host:port. Multiple hosts can be
+                                           given to allow fail-over.
+ankiii07@LAPTOP-3V6LA37H:~/kafka_2.13-2.8.0$ ls -al
+total 48
+drwxr-xr-x 7 ankiii07 ankiii07  4096 Apr 14 20:04 .
+drwxr-xr-x 4 ankiii07 ankiii07  4096 Jul  9 02:49 ..
+-rw-r--r-- 1 ankiii07 ankiii07 14515 Apr 14 19:58 LICENSE
+-rw-r--r-- 1 ankiii07 ankiii07   953 Apr 14 19:58 NOTICE
+drwxr-xr-x 3 ankiii07 ankiii07  4096 Apr 14 20:04 bin
+drwxr-xr-x 3 ankiii07 ankiii07  4096 Apr 14 20:04 config
+drwxr-xr-x 2 ankiii07 ankiii07  4096 Jul  9 02:50 libs
+drwxr-xr-x 2 ankiii07 ankiii07  4096 Apr 14 20:04 licenses
+drwxr-xr-x 2 ankiii07 ankiii07  4096 Apr 14 20:04 site-docs
+ankiii07@LAPTOP-3V6LA37H:~/kafka_2.13-2.8.0$ bin/zookeeper-server-start.sh config/zookeeper.properties
+[2021-07-09 02:57:17,967] INFO Reading configuration from: config/zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2021-07-09 02:57:17,968] WARN config/zookeeper.properties is relative. Prepend ./ to indicate that you're sure! (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2021-07-09 02:57:17,973] INFO clientPortAddress is 0.0.0.0:2181 (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2021-07-09 02:57:17,973] INFO secureClientPort is not set (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2021-07-09 02:57:17,974] INFO autopurge.snapRetainCount set to 3 (org.apache.zookeeper.server.DatadirCleanupManager)[2021-07-09 02:57:17,974] INFO autopurge.purgeInterval set to 0 (org.apache.zookeeper.server.DatadirCleanupManager)
+[2021-07-09 02:57:17,975] INFO Purge task is not scheduled. (org.apache.zookeeper.server.DatadirCleanupManager)
+[2021-07-09 02:57:17,975] WARN Either no config or no quorum defined in config, running  in standalone mode (org.apache.zookeeper.server.quorum.QuorumPeerMain)
+[2021-07-09 02:57:17,978] INFO Log4j 1.2 jmx support found and enabled. (org.apache.zookeeper.jmx.ManagedUtil)
+[2021-07-09 02:57:17,986] INFO Reading configuration from: config/zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2021-07-09 02:57:17,986] WARN config/zookeeper.properties is relative. Prepend ./ to indicate that you're sure! (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2021-07-09 02:57:17,986] INFO clientPortAddress is 0.0.0.0:2181 (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2021-07-09 02:57:17,986] INFO secureClientPort is not set (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2021-07-09 02:57:17,987] INFO Starting server (org.apache.zookeeper.server.ZooKeeperServerMain)
+[2021-07-09 02:57:17,988] INFO zookeeper.snapshot.trust.empty : false (org.apache.zookeeper.server.persistence.FileTxnSnapLog)
+[2021-07-09 02:57:17,996] INFO Server environment:zookeeper.version=3.5.9-83df9301aa5c2a5d284a9940177808c01bc35cef, built on 01/06/2021 20:03 GMT (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-07-09 02:57:17,996] INFO Server environment:host.name=LAPTOP-3V6LA37H.localdomain (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-07-09 02:57:17,996] INFO Server environment:java.version=11.0.11 (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-07-09 02:57:17,996] INFO Server environment:java.vendor=Ubuntu (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-07-09 02:57:17,996] INFO Server environment:java.home=/usr/lib/jvm/java-11-openjdk-amd64 (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-07-09 02:57:17,996] INFO Server environment:java.class.path=/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/activation-1.1.1.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/aopalliance-repackaged-2.6.1.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/argparse4j-0.7.0.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/audience-annotations-0.5.0.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/commons-cli-1.4.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/commons-lang3-3.8.1.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/connect-api-2.8.0.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/connect-basic-auth-extension-2.8.0.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/connect-file-2.8.0.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/connect-json-2.8.0.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/connect-mirror-2.8.0.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/connect-mirror-client-2.8.0.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/connect-runtime-2.8.0.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/connect-transforms-2.8.0.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/hk2-api-2.6.1.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/hk2-locator-2.6.1.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/hk2-utils-2.6.1.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/jackson-annotations-2.10.5.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/jackson-core-2.10.5.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/jackson-databind-2.10.5.1.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/jackson-dataformat-csv-2.10.5.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/jackson-datatype-jdk8-2.10.5.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/jackson-jaxrs-base-2.10.5.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/jackson-jaxrs-json-provider-2.10.5.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/jackson-module-jaxb-annotations-2.10.5.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/jackson-module-paranamer-2.10.5.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/jackson-module-scala_2.13-2.10.5.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/jakarta.activation-api-1.2.1.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/jakarta.annotation-api-1.3.5.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/jakarta.inject-2.6.1.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/jakarta.validation-api-2.0.2.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/jakarta.ws.rs-api-2.1.6.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/jakarta.xml.bind-api-2.3.2.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/javassist-3.27.0-GA.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/javax.servlet-api-3.1.0.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/javax.ws.rs-api-2.1.1.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/jaxb-api-2.3.0.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/jersey-client-2.31.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/jersey-common-2.31.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/jersey-container-servlet-2.31.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/jersey-container-servlet-core-2.31.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/jersey-hk2-2.31.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/jersey-media-jaxb-2.31.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/jersey-server-2.31.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/jetty-client-9.4.39.v20210325.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/jetty-continuation-9.4.39.v20210325.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/jetty-http-9.4.39.v20210325.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/jetty-io-9.4.39.v20210325.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/jetty-security-9.4.39.v20210325.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/jetty-server-9.4.39.v20210325.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/jetty-servlet-9.4.39.v20210325.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/jetty-servlets-9.4.39.v20210325.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/jetty-util-9.4.39.v20210325.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/jetty-util-ajax-9.4.39.v20210325.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/jline-3.12.1.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/jopt-simple-5.0.4.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/kafka-clients-2.8.0.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/kafka-log4j-appender-2.8.0.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/kafka-metadata-2.8.0.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/kafka-raft-2.8.0.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/kafka-shell-2.8.0.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/kafka-streams-2.8.0.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/kafka-streams-examples-2.8.0.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/kafka-streams-scala_2.13-2.8.0.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/kafka-streams-test-utils-2.8.0.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/kafka-tools-2.8.0.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/kafka_2.13-2.8.0-sources.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/kafka_2.13-2.8.0.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/log4j-1.2.17.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/lz4-java-1.7.1.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/maven-artifact-3.6.3.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/metrics-core-2.2.0.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/netty-buffer-4.1.62.Final.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/netty-codec-4.1.62.Final.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/netty-common-4.1.62.Final.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/netty-handler-4.1.62.Final.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/netty-resolver-4.1.62.Final.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/netty-transport-4.1.62.Final.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/netty-transport-native-epoll-4.1.62.Final.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/netty-transport-native-unix-common-4.1.62.Final.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/osgi-resource-locator-1.0.3.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/paranamer-2.8.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/plexus-utils-3.2.1.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/reflections-0.9.12.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/rocksdbjni-5.18.4.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/scala-collection-compat_2.13-2.3.0.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/scala-java8-compat_2.13-0.9.1.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/scala-library-2.13.5.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/scala-logging_2.13-3.9.2.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/scala-reflect-2.13.5.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/slf4j-api-1.7.30.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/slf4j-log4j12-1.7.30.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/snappy-java-1.1.8.1.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/zookeeper-3.5.9.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/zookeeper-jute-3.5.9.jar:/home/ankiii07/kafka_2.13-2.8.0/bin/../libs/zstd-jni-1.4.9-1.jar (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-07-09 02:57:17,996] INFO Server environment:java.library.path=/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-07-09 02:57:17,996] INFO Server environment:java.io.tmpdir=/tmp (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-07-09 02:57:17,996] INFO Server environment:java.compiler=<NA> (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-07-09 02:57:17,996] INFO Server environment:os.name=Linux (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-07-09 02:57:17,997] INFO Server environment:os.arch=amd64 (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-07-09 02:57:17,997] INFO Server environment:os.version=5.4.72-microsoft-standard-WSL2 (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-07-09 02:57:17,997] INFO Server environment:user.name=ankiii07 (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-07-09 02:57:17,997] INFO Server environment:user.home=/home/ankiii07 (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-07-09 02:57:17,997] INFO Server environment:user.dir=/home/ankiii07/kafka_2.13-2.8.0 (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-07-09 02:57:17,997] INFO Server environment:os.memory.free=494MB (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-07-09 02:57:17,997] INFO Server environment:os.memory.max=512MB (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-07-09 02:57:17,997] INFO Server environment:os.memory.total=512MB (org.apache.zookeeper.server.ZooKeeperServer)[2021-07-09 02:57:17,998] INFO minSessionTimeout set to 6000 (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-07-09 02:57:17,998] INFO maxSessionTimeout set to 60000 (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-07-09 02:57:17,999] INFO Created server with tickTime 3000 minSessionTimeout 6000 maxSessionTimeout 60000 datadir /tmp/zookeeper/version-2 snapdir /tmp/zookeeper/version-2 (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-07-09 02:57:18,004] INFO Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory (org.apache.zookeeper.server.ServerCnxnFactory)
+[2021-07-09 02:57:18,005] INFO Configuring NIO connection handler with 10s sessionless connection timeout, 2 selector thread(s), 16 worker threads, and 64 kB direct buffers. (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2021-07-09 02:57:18,010] INFO binding to port 0.0.0.0/0.0.0.0:2181 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2021-07-09 02:57:18,020] INFO zookeeper.snapshotSizeFactor = 0.33 (org.apache.zookeeper.server.ZKDatabase)
+[2021-07-09 02:57:18,023] INFO Snapshotting: 0x0 to /tmp/zookeeper/version-2/snapshot.0 (org.apache.zookeeper.server.persistence.FileTxnSnapLog)
+[2021-07-09 02:57:18,025] INFO Snapshotting: 0x0 to /tmp/zookeeper/version-2/snapshot.0 (org.apache.zookeeper.server.persistence.FileTxnSnapLog)
+[2021-07-09 02:57:18,033] INFO PrepRequestProcessor (sid:0) started, reconfigEnabled=false (org.apache.zookeeper.server.PrepRequestProcessor)
+[2021-07-09 02:57:18,039] INFO Using checkIntervalMs=60000 maxPerMinute=10000 (org.apache.zookeeper.server.ContainerManager)
+^[[A^[[B^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^Z
+[1]+  Stopped                 bin/zookeeper-server-start.sh config/zookeeper.properties
+ankiii07@LAPTOP-3V6LA37H:~/kafka_2.13-2.8.0$  curl -s localhost:8083/connector-plugins|jq '.[].class'|egrep 'SpoolDir'
+
+Command 'jq' not found, but can be installed with:
+
+sudo apt install jq
+
+ankiii07@LAPTOP-3V6LA37H:~/kafka_2.13-2.8.0$ sudo apt install jq
+[sudo] password for ankiii07:
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following additional packages will be installed:
+  libjq1 libonig5
+The following NEW packages will be installed:
+  jq libjq1 libonig5
+0 upgraded, 3 newly installed, 0 to remove and 0 not upgraded.
+Need to get 313 kB of archives.
+After this operation, 1062 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://archive.ubuntu.com/ubuntu focal/universe amd64 libonig5 amd64 6.9.4-1 [142 kB]
+Get:2 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 libjq1 amd64 1.6-1ubuntu0.20.04.1 [121 kB]
+Get:3 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 jq amd64 1.6-1ubuntu0.20.04.1 [50.2 kB]
+Fetched 313 kB in 2s (172 kB/s)
+Selecting previously unselected package libonig5:amd64.
+(Reading database ... 32694 files and directories currently installed.)
+Preparing to unpack .../libonig5_6.9.4-1_amd64.deb ...
+Unpacking libonig5:amd64 (6.9.4-1) ...
+Selecting previously unselected package libjq1:amd64.
+Preparing to unpack .../libjq1_1.6-1ubuntu0.20.04.1_amd64.deb ...
+Unpacking libjq1:amd64 (1.6-1ubuntu0.20.04.1) ...
+Selecting previously unselected package jq.
+Preparing to unpack .../jq_1.6-1ubuntu0.20.04.1_amd64.deb ...
+Unpacking jq (1.6-1ubuntu0.20.04.1) ...
+Setting up libonig5:amd64 (6.9.4-1) ...
+Setting up libjq1:amd64 (1.6-1ubuntu0.20.04.1) ...
+Setting up jq (1.6-1ubuntu0.20.04.1) ...
+Processing triggers for man-db (2.9.1-1) ...
+Processing triggers for libc-bin (2.31-0ubuntu9.2) ...
+ankiii07@LAPTOP-3V6LA37H:~/kafka_2.13-2.8.0$  curl -s localhost:8083/connector-plugins|jq '.[].class'|egrep 'SpoolDir'
+ankiii07@LAPTOP-3V6LA37H:~/kafka_2.13-2.8.0$ kafka-console-producer.bat --broker-list localhost:9092 --topic freshTopic < E:\csv\sample.csv
+-bash: E:csvsample.csv: No such file or directory
+ankiii07@LAPTOP-3V6LA37H:~/kafka_2.13-2.8.0$ kafka-console-producer.bat --broker-list localhost:9092 --topic freshTopic < D:\data science\ML Project(AJUS)\task 5\File1.csv
+-bash: syntax error near unexpected token `('
+ankiii07@LAPTOP-3V6LA37H:~/kafka_2.13-2.8.0$ kafka-console-producer.bat --broker-list localhost:9092 --topic freshTopic < D:\data science\ML Project Aujus\task 5\File1.csv
+-bash: D:data: No such file or directory
+ankiii07@LAPTOP-3V6LA37H:~/kafka_2.13-2.8.0$ git clone https://github.com/jcustenborder/kafka-connect-spooldir.git
+d kafka-connect-spooldir
+mvn clean packageCloning into 'kafka-connect-spooldir'...
+remote: Enumerating objects: 1940, done.
+remote: Counting objects: 100% (262/262), done.
+remote: Compressing objects: 100% (105/105), done.
+remote: Total 1940 (delta 88), reused 195 (delta 52), pack-reused 1678
+Receiving objects: 100% (1940/1940), 505.80 KiB | 2.69 MiB/s, done.
+Resolving deltas: 100% (752/752), done.
+ankiii07@LAPTOP-3V6LA37H:~/kafka_2.13-2.8.0$ cd kafka-connect-spooldir
+ankiii07@LAPTOP-3V6LA37H:~/kafka_2.13-2.8.0/kafka-connect-spooldir$ docker pull streamthoughts/kafka-connect-file-pulse:latest
+
+Command 'docker' not found, but can be installed with:
+
+sudo apt install docker.io
+
+ankiii07@LAPTOP-3V6LA37H:~/kafka_2.13-2.8.0/kafka-connect-spooldir$ sudo apt install docker.io
+[sudo] password for ankiii07:
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following additional packages will be installed:
+  bridge-utils containerd dns-root-data dnsmasq-base libidn11 pigz runc ubuntu-fan
+Suggested packages:
+  ifupdown aufs-tools cgroupfs-mount | cgroup-lite debootstrap docker-doc rinse zfs-fuse | zfsutils
+The following NEW packages will be installed:
+  bridge-utils containerd dns-root-data dnsmasq-base docker.io libidn11 pigz runc ubuntu-fan
+0 upgraded, 9 newly installed, 0 to remove and 0 not upgraded.
+Need to get 72.6 MB of archives.
+After this operation, 352 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://archive.ubuntu.com/ubuntu focal/universe amd64 pigz amd64 2.4-1 [57.4 kB]
+Get:2 http://archive.ubuntu.com/ubuntu focal/main amd64 bridge-utils amd64 1.6-2ubuntu1 [30.5 kB]
+Get:3 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 runc amd64 1.0.0~rc95-0ubuntu1~20.04.1 [4087 kB]
+Get:4 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 containerd amd64 1.4.4-0ubuntu1~20.04.2 [31.0 MB]
+Get:5 http://archive.ubuntu.com/ubuntu focal/main amd64 dns-root-data all 2019052802 [5300 B]
+Get:6 http://archive.ubuntu.com/ubuntu focal/main amd64 libidn11 amd64 1.33-2.2ubuntu2 [46.2 kB]
+Get:7 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 dnsmasq-base amd64 2.80-1.1ubuntu1.4 [315 kB]
+Get:8 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 docker.io amd64 20.10.2-0ubuntu1~20.04.2 [36.9 MB]
+Get:9 http://archive.ubuntu.com/ubuntu focal/main amd64 ubuntu-fan all 0.12.13 [34.5 kB]
+Fetched 72.6 MB in 15s (4987 kB/s)
+Preconfiguring packages ...
+Selecting previously unselected package pigz.
+(Reading database ... 32711 files and directories currently installed.)
+Preparing to unpack .../0-pigz_2.4-1_amd64.deb ...
+Unpacking pigz (2.4-1) ...
+Selecting previously unselected package bridge-utils.
+Preparing to unpack .../1-bridge-utils_1.6-2ubuntu1_amd64.deb ...
+Unpacking bridge-utils (1.6-2ubuntu1) ...
+Selecting previously unselected package runc.
+Preparing to unpack .../2-runc_1.0.0~rc95-0ubuntu1~20.04.1_amd64.deb ...
+Unpacking runc (1.0.0~rc95-0ubuntu1~20.04.1) ...
+Selecting previously unselected package containerd.
+Preparing to unpack .../3-containerd_1.4.4-0ubuntu1~20.04.2_amd64.deb ...
+Unpacking containerd (1.4.4-0ubuntu1~20.04.2) ...
+Selecting previously unselected package dns-root-data.
+Preparing to unpack .../4-dns-root-data_2019052802_all.deb ...
+Unpacking dns-root-data (2019052802) ...
+Selecting previously unselected package libidn11:amd64.
+Preparing to unpack .../5-libidn11_1.33-2.2ubuntu2_amd64.deb ...
+Unpacking libidn11:amd64 (1.33-2.2ubuntu2) ...
+Selecting previously unselected package dnsmasq-base.
+Preparing to unpack .../6-dnsmasq-base_2.80-1.1ubuntu1.4_amd64.deb ...
+Unpacking dnsmasq-base (2.80-1.1ubuntu1.4) ...
+Selecting previously unselected package docker.io.
+Preparing to unpack .../7-docker.io_20.10.2-0ubuntu1~20.04.2_amd64.deb ...
+Unpacking docker.io (20.10.2-0ubuntu1~20.04.2) ...
+Selecting previously unselected package ubuntu-fan.
+Preparing to unpack .../8-ubuntu-fan_0.12.13_all.deb ...
+Unpacking ubuntu-fan (0.12.13) ...
+Setting up runc (1.0.0~rc95-0ubuntu1~20.04.1) ...
+Setting up dns-root-data (2019052802) ...
+Setting up libidn11:amd64 (1.33-2.2ubuntu2) ...
+Setting up bridge-utils (1.6-2ubuntu1) ...
+Setting up pigz (2.4-1) ...
+Setting up containerd (1.4.4-0ubuntu1~20.04.2) ...
+Created symlink /etc/systemd/system/multi-user.target.wants/containerd.service → /lib/systemd/system/containerd.service.Setting up docker.io (20.10.2-0ubuntu1~20.04.2) ...
+Adding group `docker' (GID 119) ...
+Done.
+Created symlink /etc/systemd/system/multi-user.target.wants/docker.service → /lib/systemd/system/docker.service.
+Created symlink /etc/systemd/system/sockets.target.wants/docker.socket → /lib/systemd/system/docker.socket.
+invoke-rc.d: unknown initscript, /etc/init.d/docker not found.
+invoke-rc.d: could not determine current runlevel
+Setting up dnsmasq-base (2.80-1.1ubuntu1.4) ...
+Setting up ubuntu-fan (0.12.13) ...
+Created symlink /etc/systemd/system/multi-user.target.wants/ubuntu-fan.service → /lib/systemd/system/ubuntu-fan.service.invoke-rc.d: could not determine current runlevel
+Processing triggers for systemd (245.4-4ubuntu3.7) ...
+Processing triggers for man-db (2.9.1-1) ...
+Processing triggers for dbus (1.12.16-2ubuntu2.1) ...
+Processing triggers for libc-bin (2.31-0ubuntu9.2) ...
+ankiii07@LAPTOP-3V6LA37H:~/kafka_2.13-2.8.0/kafka-connect-spooldir$  cd kafka_2.13-2.8.0
+-bash: cd: kafka_2.13-2.8.0: No such file or directory
+ankiii07@LAPTOP-3V6LA37H:~/kafka_2.13-2.8.0/kafka-connect-spooldir$
